@@ -3,18 +3,18 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Carmax.testcase.T02_Nearest_Store">
+      <class name="Carmax.testcase.TC01_Register">
         <methods>
           <include name="beforeMethodClass"/>
           <include name="close"/>
           <include name="beforeClass"/>
           <include name="afterClass"/>
-          <include name="Nearest_store_filter"/>
           <include name="afterSuite"/>
           <include name="beforeSuite"/>
           <include name="event"/>
+          <include name="Registration_Profile"/>
         </methods>
-      </class> <!-- Carmax.testcase.T02_Nearest_Store -->
+      </class> <!-- Carmax.testcase.TC01_Register -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

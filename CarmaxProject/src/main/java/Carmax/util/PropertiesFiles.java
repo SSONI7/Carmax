@@ -18,7 +18,7 @@ public class PropertiesFiles {
 		   
 		try
 		{
-			InputStream input  = new FileInputStream("C:\\Users\\Saniket\\git\\Bblog\\saniketBblog\\Testdata\\TC01.properties");
+			InputStream input  = new FileInputStream("C:\\Users\\Saniket\\git\\Carmax\\CarmaxProject\\Testdata\\TC01.properties");
 			prop.load(input);
 			
 		} catch (Exception e) {
@@ -33,7 +33,7 @@ public class PropertiesFiles {
 		
 		try {
 			
-			OutputStream output = new FileOutputStream("C:\\Users\\Saniket\\git\\Bblog\\saniketBblog\\Testdata\\TC01.properties");
+			OutputStream output = new FileOutputStream("C:\\Users\\Saniket\\git\\Carmax\\CarmaxProject\\Testdata\\TC01.properties");
 			//prop.setProperty(key, value);
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
